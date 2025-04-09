@@ -1,0 +1,70 @@
+/* Estilos base y reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #8A6FD6; /* Morado claro */
+    padding: 15px;
+  }
+  
+  .contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .header-contenido {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    background-color: #4CAF50; /* Verde */
+    height: 24px;
+    width: 96px;
+    border-radius: 4px;
+    margin-left: 5px;
+  }
+  
+  .barra-busqueda {
+    flex: 1;
+    margin: 0 15px;
+    position: relative;
+  }
+  
+  .input-busqueda {
+    background-color: white;
+    border-radius: 4px;
+    height: 32px;
+    width: 100%;
+    border: none;
+  }
+  
+  .iconos-nav {
+    display: flex;
+    gap: 13px;
+  }
+  
+  .icono-nav {
+    background-color: #d4d4d4;
+    height: 22px;
+    width: 24px;
+    border-radius: 4px;
+  }
+  
+  .icono-nav:last-child {
+    margin-top: 3px;
+  }
+  
+  
