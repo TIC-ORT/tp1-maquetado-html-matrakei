@@ -1,70 +1,198 @@
 /* Estilos base y reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   }
   
   body {
-    font-family: Arial, sans-serif;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   }
   
   /* Estilos del encabezado */
   header {
-    background-color: #8A6FD6; /* Morado claro */
-    padding: 15px;
+  background-color: #8A6FD6; /* Morado claro */
+  padding: 15px;
   }
   
   .contenedor {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
   }
   
   .header-contenido {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
   }
   
   .logo {
-    background-color: #4CAF50; /* Verde */
-    height: 24px;
-    width: 96px;
-    border-radius: 4px;
-    margin-left: 5px;
+  background-color: #4CAF50; /* Verde */
+  height: 24px;
+  width: 96px;
+  margin-left: 5px;
   }
   
   .barra-busqueda {
-    flex: 1;
-    margin: 0 15px;
-    position: relative;
+  flex: 1;
+  margin: 0 15px;
+  position: relative;
   }
   
   .input-busqueda {
-    background-color: white;
-    border-radius: 4px;
-    height: 32px;
-    width: 100%;
-    border: none;
+  background-color: white;
+  height: 32px;
+  width: 100%;
   }
   
   .iconos-nav {
-    display: flex;
-    gap: 13px;
+  display: flex;
+  gap: 13px;
   }
   
   .icono-nav {
-    background-color: #d4d4d4;
-    height: 24px;
-    width: 24px;
-    border-radius: 4px;
+  background-color: #d4d4d4;
+  height: 24px;
+  width: 24px;
   }
   
   .icono-nav:last-child {
-    margin-top: 0px;
+  margin-top: 0px;
   }
-  
-  
+  /* Estilos de la sección principal */
+.seccion-principal {
+  background-color: #B2EBF2; /* Azul claro */
+  padding: 50px 0;
+}
+
+.contenido-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .contenido-principal {
+  flex-direction: row;
+  align-items: flex-start;
+  }
+}
+
+.imagen-principal {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .imagen-principal {
+  width: 33.333%;
+  margin-bottom: 0;
+  }
+ 
+  .texto-principal {
+  width: 66.666%;
+  padding-left: 45px;
+  padding-top: 15px;
+  }
+}
+
+.placeholder-imagen {
+  background-color: #5C6BC0; /* Azul índigo */
+  height: 160px;
+  width: 160px;
+}
+
+.titulo-principal {
+  background-color: #5C6BC0; /* Azul índigo */
+  height: 32px;
+  width: 130px;
+  margin-bottom: 16px;
+}
+
+.parrafo-principal {
+  background-color: white;
+  height: 24px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.parrafo-principal:nth-child(3) {
+  width: 95%;
+}
+
+.parrafo-principal:last-child {
+  width: 76%;
+}
+
+/* Estilos de la sección de tarjetas */
+.seccion-tarjetas {
+  padding: 65px 0;
+}
+
+.grid-tarjetas {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .grid-tarjetas {
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 45px;
+  }
+}
+
+.tarjeta {
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.tarjeta-1 {
+  background-color: #D1C4E9; /* Morado muy claro */
+}
+
+.tarjeta-2 {
+  background-color: #A5D6A7; /* Verde claro */
+  transform: translateY(-5px);
+}
+
+.tarjeta-3 {
+  background-color: #BBDEFB; /* Azul muy claro */
+}
+
+.tarjeta-4 {
+  background-color: #BBDEFB; /* Azul muy claro */
+}
+
+.tarjeta-5 {
+  background-color: #D1C4E9; /* Morado muy claro */
+  transform: translateY(5px);
+}
+
+.tarjeta-6 {
+  background-color: #A5D6A7; /* Verde claro */
+}
+
+.interior-tarjeta-1 {
+  background-color: #673AB7; /* Morado */
+  height: 80px;
+  width: 80px;
+}
+
+.interior-tarjeta-2 {
+  background-color: #2E7D32; /* Verde oscuro */
+  height: 80px;
+  width: 80px;
+  margin-left: 10px;
+}
+
+.interior-tarjeta-3 {
+  background-color: #1976D2; /* Azul */
+  height: 80px;
+  width: 80px;
+}
