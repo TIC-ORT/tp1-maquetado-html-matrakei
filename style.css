@@ -196,3 +196,49 @@
   height: 80px;
   width: 80px;
 }
+/* Estilos del pie de página */
+footer {
+  background-color: #F5F5F5; /* Gris muy claro */
+  padding: 30px 0;
+  margin-top: auto;
+}
+
+.contenido-footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .contenido-footer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.columna-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.columna-footer:nth-child(2) {
+  padding-top: 8px;
+}
+
+.titulo-footer {
+  background-color: #9E9E9E; /* Gris */
+  height: 16px;
+  width: 125px;
+  border-radius: 4px;
+}
+
+.texto-footer {
+  background-color: white;
+  height: 12px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.texto-footer:last-child {
+  width: 74%;
+}
