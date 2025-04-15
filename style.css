@@ -14,7 +14,7 @@
   
   /* Estilos del encabezado */
   header {
-  background-color: #8A6FD6; /* Morado claro */
+  background-color: #381a1a; /* Marron */
   padding: 15px;
   }
   
@@ -30,7 +30,7 @@
   }
   
   .logo {
-  background-color: #4CAF50; /* Verde */
+  background-color: #b99d9d; /* Rosa 40% */
   height: 24px;
   width: 96px;
   margin-left: 5px;
@@ -43,7 +43,7 @@
   }
   
   .input-busqueda {
-  background-color: white;
+  background-color: #9e6b6b; /* Rosa chicle */  
   height: 32px;
   width: 100%;
   }
@@ -54,7 +54,7 @@
   }
   
   .icono-nav {
-  background-color: #d4d4d4;
+  background-color: #b99d9d; /* Rosa 40% */
   height: 24px;
   width: 24px;
   }
@@ -64,7 +64,7 @@
   }
   /* Estilos de la sección principal */
 .seccion-principal {
-  background-color: #B2EBF2; /* Azul claro */
+  background-color: #2e2b29; /* Gris oscuro*/
   padding: 50px 0;
 }
 
@@ -99,20 +99,20 @@
 }
 
 .placeholder-imagen {
-  background-color: #5C6BC0; /* Azul índigo */
+  background-color: #b99d9d; /* Rosa 40% */
   height: 160px;
   width: 160px;
 }
 
 .titulo-principal {
-  background-color: #5C6BC0; /* Azul índigo */
+  background-color: #b99d9d; /* Rosa 40% */
   height: 32px;
   width: 130px;
   margin-bottom: 16px;
 }
 
 .parrafo-principal {
-  background-color: white;
+  background-color: #9e6b6b; /* Rosa chicle */ 
   height: 24px;
   width: 100%;
   margin-bottom: 12px;
@@ -158,7 +158,6 @@
 
 .tarjeta-2 {
   background-color: #A5D6A7; /* Verde claro */
-  transform: translateY(-5px);
 }
 
 .tarjeta-3 {
@@ -171,7 +170,6 @@
 
 .tarjeta-5 {
   background-color: #D1C4E9; /* Morado muy claro */
-  transform: translateY(5px);
 }
 
 .tarjeta-6 {
@@ -229,14 +227,13 @@ footer {
   background-color: #b99d9d; /* Rosa 40% */
   height: 16px;
   width: 125px;
-  border-radius: 4px;
 }
 
 .texto-footer {
-  background-color: rgb(158, 107, 107);
+  background-color: #9e6b6b; /* Rosa chicle */
   height: 12px;
   width: 100%;
-  border-radius: 4px;
+  
 }
 
 .texto-footer:last-child {
