@@ -198,7 +198,7 @@
 }
 /* Estilos del pie de página */
 footer {
-  background-color: #F5F5F5; /* Gris muy claro */
+  background-color: #2e2b29; /* Gris ocsuro */
   padding: 30px 0;
   margin-top: auto;
 }
@@ -226,14 +226,14 @@ footer {
 }
 
 .titulo-footer {
-  background-color: #9E9E9E; /* Gris */
+  background-color: #b99d9d; /* Rosa 40% */
   height: 16px;
   width: 125px;
   border-radius: 4px;
 }
 
 .texto-footer {
-  background-color: white;
+  background-color: rgb(158, 107, 107);
   height: 12px;
   width: 100%;
   border-radius: 4px;
